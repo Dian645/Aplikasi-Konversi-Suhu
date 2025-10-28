@@ -51,7 +51,6 @@ public class AplikasiKonversiSuhu extends javax.swing.JFrame {
         lblHasil = new javax.swing.JLabel();
         btnKonversi = new javax.swing.JButton();
         rbOtomatis = new javax.swing.JRadioButton();
-        btnKeluar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -109,9 +108,6 @@ public class AplikasiKonversiSuhu extends javax.swing.JFrame {
             }
         });
         jPanel1.add(rbOtomatis, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 190, -1, -1));
-
-        btnKeluar.setText("Keluar");
-        jPanel1.add(btnKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
@@ -216,7 +212,6 @@ public class AplikasiKonversiSuhu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnKeluar;
     private javax.swing.JButton btnKonversi;
     private javax.swing.JComboBox<String> cbDari;
     private javax.swing.JComboBox<String> cbKe;
